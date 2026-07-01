@@ -113,7 +113,7 @@ ou
 ## curl -s https://jsonplaceholder.typicode.com/posts/1 | jq
 (O | (pipe) joga a resposta do curl para dentro do jq, que organiza o JSON com indentação automática).
 
-```
+```bash
 {
   "userId": 1,
   "id": 1,
