@@ -1,4 +1,4 @@
-Diagnóstico de API - Teste de Conectividade
+### Diagnóstico de API - Teste de Conectividade
 1. Cenário
 Simulação de consulta em API pública de dados (jsonplaceholder.typicode.com) para validação de conectividade e análise de cabeçalhos de resposta HTTP.
 
