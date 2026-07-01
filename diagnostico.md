@@ -104,10 +104,12 @@ ts/1
 ```
 
 ## Para ver apenas JSON:
-curl -s https://jsonplaceholder.typicode.com/posts/1
+# curl -s https://jsonplaceholder.typicode.com/posts/1
 (A flag -s significa "silent", ela remove aqueles logs técnicos que começam com *, < e > e te mostra apenas o JSON. Você verá o } perfeitamente).
+
 ou
-curl -s https://jsonplaceholder.typicode.com/posts/1 | jq
+
+# curl -s https://jsonplaceholder.typicode.com/posts/1 | jq
 (O | (pipe) joga a resposta do curl para dentro do jq, que organiza o JSON com indentação automática).
 
 ```
