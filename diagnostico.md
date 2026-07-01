@@ -4,7 +4,7 @@ Simulação de consulta em API pública de dados (jsonplaceholder.typicode.com) 
 
 2. Comando cURL
 Bash
-curl -v https://jsonplaceholder.typicode.com/posts/1
+## curl -v https://jsonplaceholder.typicode.com/posts/1
 3. Resultado Esperado
 Status Code: 200 OK (A requisição foi processada com sucesso).
 
