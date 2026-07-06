@@ -2,16 +2,16 @@
 Dar permissão de execução:
 Após criar o arquivo, você precisa dizer ao sistema que ele é um programa:
 
-´´´bash
+```bash
 chmod +x health_check.sh
-´´´
+```
 ---
 ## Executar de qualquer lugar (Opcional):
 Se você quiser rodar apenas health_check de qualquer pasta, mova-o para a pasta bin local:
 
-Bash
+```
 sudo mv health_check.sh /usr/local/bin/health_check
-
+```
 ---
 ### Por que este script é valioso?
 *Padronização: Você sempre terá os mesmos dados básicos, não importa em qual servidor estiver logado.
