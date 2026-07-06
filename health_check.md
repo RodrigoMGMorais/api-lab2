@@ -2,9 +2,9 @@
 Dar permissão de execução:
 Após criar o arquivo, você precisa dizer ao sistema que ele é um programa:
 
-Bash
+´´´bash
 chmod +x health_check.sh
-
+´´´
 ---
 ## Executar de qualquer lugar (Opcional):
 Se você quiser rodar apenas health_check de qualquer pasta, mova-o para a pasta bin local:
